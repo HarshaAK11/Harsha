@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'diplomat';
+  src: url('./assets/font/Diplomat-Regular.ttf') format('truetype');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow-x: hidden;
+}
+
+.logo{
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.font{
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.cursive-font{
+  font-family: "diplomat", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
