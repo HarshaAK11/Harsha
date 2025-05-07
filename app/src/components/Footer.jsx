@@ -224,7 +224,7 @@ const Footer = () => {
       
     } catch (error) {
       console.error('Error sending message:', error.message)
-      setToastMessage({ title: 'An error occurred while sending the message.', description: 'Please try again later.' })
+      toast.error('Server error')
     }
   }
 
