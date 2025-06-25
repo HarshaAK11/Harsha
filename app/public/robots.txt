@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://harsha-peach.vercel.app/sitemap.xml
