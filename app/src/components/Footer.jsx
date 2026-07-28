@@ -199,7 +199,7 @@ const Footer = () => {
     const formData = new FormData(e.target)
 
     try {
-      const response = await fetch('http://localhost:3000/api/message', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -211,15 +211,16 @@ const Footer = () => {
         })
       })
 
-      const data = await response.json()
+      const responseText = await response.text()
+      const data = responseText ? JSON.parse(responseText) : null
 
       if(response.ok) {
         e.target.reset()
         toast.success('Message sent successfully!')
         console.log('there you go')
       } else {
-        toast.error('error')
-        console.log('here we land')
+        toast.error(data?.error || 'Unable to send your message.')
+        console.error('Contact form request failed:', response.status, data)
       }
       
     } catch (error) {
@@ -244,7 +245,7 @@ const Footer = () => {
 
           {/* Main Heading */}
           <h1 ref={h1Ref} className="xl:text-9xl md:text-8xl sm:text-7xl max-xs:text-5xl text-center font-[700]">
-            Ready to elevate<br/>your brand?
+            Ready to build<br/>with AI?
           </h1>
 
           {/* Contact button */}
@@ -261,7 +262,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p ref={pRef} className="absolute bottom-0">
-            ©Harsha 2025 | All rights reserved
+            ©Harsha 2026 | All rights reserved
           </p>
 
         </div>  
@@ -290,7 +291,7 @@ const Footer = () => {
                 <input type="email" name='email' placeholder="Your Email" className=' modalInput2 border-[grey] text-[grey] bg-[transparent] border-2  p-3 outline-none placeholder:text-[grey]'  required/>
               </div>   
 
-              <textarea name='question' placeholder="What can i help you with?" className='modalTextarea h-[180px] border-[grey] text-[grey] bg-[transparent] border-2  p-3 outline-none placeholder:text-[grey] resize-none' required/>
+              <textarea name='question' placeholder="How can I help with your AI project?" className='modalTextarea h-[180px] border-[grey] text-[grey] bg-[transparent] border-2  p-3 outline-none placeholder:text-[grey] resize-none' required/>
 
               <button type="submit" className='modalButton w-[200px] bg-[#D9D9D9] text-[black] hover:text-[#D9D9D9] hover:bg-[black] border-2 rounded-3xl border-[black] p-3 transition duration-300 max-xs:mt-4'>SUBMIT MESSAGE</button>
 

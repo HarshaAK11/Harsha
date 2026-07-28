@@ -1,0 +1,16 @@
+{
+  "installCommand": "npm --prefix app ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "app/dist",
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml"
+        }
+      ]
+    }
+  ]
+}

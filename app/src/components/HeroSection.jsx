@@ -198,7 +198,7 @@ const HeroSection = () => {
                 {/*Bottom text*/}
                 <div className='font absolute bottom-[50px] left-1/2 translate-x-[-50%] leading-[18px] font-[600] text-center'> 
                     <div ref={bottomTextRef}>
-                        WEBDESIGNER<br/>& DEVELOPER
+                        AI<br/>ENGINEER
                     </div>
                     <div ref={socialRef}>
 
@@ -223,11 +223,11 @@ const HeroSection = () => {
 
             {/*Quote*/}
             <div className='container max-w-full xl:h-[120vh] md:h-[100vh] sm:h-[80vh] max-xs:h-[50vh] w-full bg-[#D9D9D9] flex flex-col justify-center items-center xl:leading-[100px] md:leading-[80px] sm:leading-[60px] max-xs:leading-none font-[900] xl:text-[7rem] md:text-[5.5rem] sm:text-[3.8rem] max-xs:text-[2.3rem] overflow-hidden'>
-                <h1 className='right font mr-[40%]'>CRAFTING</h1>
-                <h1 className='left cursive-font mr-[5%]'>Timeless</h1>
-                <h1 className='font ml-[40%] max-xs:ml-[30%]'>WEBSITES</h1>
-                <h1 className='left font ml-[10%]'>THAT SPEAKS FOR</h1>
-                <h1 className='right cursive-font ml-[30%] max-xs:ml-[10%]'>Your Brand</h1>
+                <h1 className='right font mr-[40%]'>BUILDING</h1>
+                <h1 className='left cursive-font mr-[5%]'>Intelligent</h1>
+                <h1 className='font ml-[40%] max-xs:ml-[30%]'>SYSTEMS</h1>
+                <h1 className='left font ml-[10%]'>THAT CREATE</h1>
+                <h1 className='right cursive-font ml-[30%] max-xs:ml-[10%]'>Real Impact</h1>
             </div>
         </>
     )

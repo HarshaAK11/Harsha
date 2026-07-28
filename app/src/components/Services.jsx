@@ -8,23 +8,23 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: "Web Dev",
-      items: ["Immersive websites.", "Engaging experiences."],
+      title: "AI Applications",
+      items: ["LLM-powered products.", "Intelligent workflows."],
     },
     {
       id: 2,
-      title: "Branding",
-      items: ["Unique identities.", "Memorable brands."],
+      title: "Machine Learning",
+      items: ["Predictive models.", "Data-driven systems."],
     },
     {
       id: 3,
-      title: "Digital Solutions",
-      items: ["Tailored strategies.", "Business growth."],
+      title: "AI Automation",
+      items: ["Agentic workflows.", "Streamlined operations."],
     },
     {
       id: 4,
-      title: "UX/UI Design",
-      items: ["Intuitive interfaces.", "Seamless interactions."],
+      title: "AI Integration",
+      items: ["RAG systems.", "Production deployment."],
     },
   ];
 
@@ -62,10 +62,10 @@ const Services = () => {
           <span className="xl:text-[30px] md:text-[25px] sm:text-[15px] max-xs:text-[15px] tracking-[0] absolute translate-y-5 xl:translate-y-10 md:translate-y-5 max-xs:translate-y-2">
             (Services)
           </span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’m
-          the Creator
-          <br /> who transforms creative visions into reality, honoring
-          originality in every detail.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I build
+          intelligent systems
+          <br /> that transform complex ideas into practical, impactful
+          AI solutions.
         </h1>
       </div>
 

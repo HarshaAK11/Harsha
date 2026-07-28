@@ -52,8 +52,8 @@ const About = () => {
         {/*Text*/}
         <div className='about-container font text-gray-500 w-full md:w-[40%] lg:w-[30%] mt-8 md:mt-0 px-4 md:px-0 max-xs:mt-0'>
           <p className='fast text-black text-2xl md:text-3xl'><b>About</b></p>
-          <p className='slow'><br />Hi, I'm Harsha – Designer, Developer & Co-Founder of <a href='https://rjglobalgroup.in/' className='text-red-500'>RJ Global Groups</a>.</p>
-          <p className='slow '><br />I'm a passionate designer and developer with a love for creating intuitive and engaging digital experiences. My expertise spans both the creative and technical sides of web design and development, allowing me to craft websites that are visually appealing and highly functional.<br/><br/>I'm also the co-founder of RJ Global Groups, where we work together to deliver innovative digital solutions and transform business visions into reality.</p>
+          <p className='slow'><br />Hi, I'm Harsha - an AI Engineer and Co-Founder of <a href='https://rjglobalgroup.in/' className='text-red-500'>RJ Global Groups</a>.</p>
+          <p className='slow '><br />I'm passionate about building intelligent products that turn complex problems into useful, reliable experiences. My work blends machine learning, large language models, and modern software engineering to create AI systems that people can actually use.<br/><br/>I'm also the co-founder of RJ Global Groups, where we build practical digital and AI solutions that help transform ambitious business ideas into real-world impact.</p>
         </div>
 
        
