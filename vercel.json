@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm --prefix app ci",
+  "installCommand": "npm --prefix app install --no-audit --no-fund",
   "buildCommand": "npm run build",
   "outputDirectory": "app/dist",
   "headers": [
