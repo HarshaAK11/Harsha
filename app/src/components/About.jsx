@@ -51,9 +51,9 @@ const About = () => {
 
         {/*Text*/}
         <div className='about-container font text-gray-500 w-full md:w-[40%] lg:w-[30%] mt-8 md:mt-0 px-4 md:px-0 max-xs:mt-0'>
-          <p className='fast text-black text-2xl md:text-3xl'><b>About</b></p>
-          <p className='slow'><br />Hi, I'm Harsha - an AI Engineer focused on building thoughtful, reliable technology.</p>
-          <p className='slow '><br />I'm passionate about building intelligent products that turn complex problems into useful, reliable experiences. My work blends machine learning, large language models, and modern software engineering to create AI systems that people can actually use.<br/><br/>Beyond technology, I'm an athlete and a chess player. Both keep me curious, disciplined, and strategic - qualities I bring to every challenge I take on.</p>
+          <p className='fast text-black text-2xl md:text-3xl'><b>Built for intelligence.<br />Designed for impact.</b></p>
+          <p className='slow'><br />I'm Harsha, an AI Engineer who turns ambitious ideas into intelligent products people can rely on.</p>
+          <p className='slow '><br />I build practical AI experiences that combine machine learning, large language models, and modern software engineering. From first concept to production-ready systems, I focus on technology that solves real problems, feels intuitive, and delivers measurable value.<br/><br/>Beyond the screen, I'm an athlete and a chess player. Both sharpen the discipline, curiosity, and strategic thinking I bring to every challenge.</p>
         </div>
 
        
